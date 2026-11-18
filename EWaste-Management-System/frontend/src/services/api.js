@@ -1,4 +1,4 @@
-const BASE_URL = 'https://ecocycle-deployment.onrender.com';
+const BASE_URL = `${import.meta.env.VITE_API_URL || 'https://ecocycle-deployment.onrender.com'}/api`;
 
 // ─── Generic request helper ───────────────────────────────────────────────────
 async function request(endpoint, options = {}) {
