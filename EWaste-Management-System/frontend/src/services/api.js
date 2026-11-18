@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:8080/api';
+const BASE_URL = 'https://ecocycle-deployment.onrender.com';
 
 // ─── Generic request helper ───────────────────────────────────────────────────
 async function request(endpoint, options = {}) {
